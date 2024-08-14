@@ -18,6 +18,9 @@ The File Integrity Monitor is a Python script that monitors files in a specified
 ### Prerequisites
 - Python 3.x
 
+###
+- Created with help from LLM.
+
 ### Clone the Repository
 ```bash
 git clone https://github.com/yourusername/file-integrity-monitor.git
