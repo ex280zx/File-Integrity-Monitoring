@@ -12,14 +12,13 @@ The File Integrity Monitor is a Python script that monitors files in a specified
 
 ### Usage and Customization
 - Open the script file_integrity_monitor.py and set the directory_to_monitor variable to the path of the directory you want to monitor.
-- -You can change the monitoring interval by modifying the monitor_interval variable in seconds:
+- You can change the monitoring interval by modifying the monitor_interval variable in seconds:
 
+### Creation note
+- Created with help from LLM.
 
 ### Prerequisites
 - Python 3.x
-
-###
-- Created with help from LLM.
 
 ### Clone the Repository
 ```bash
