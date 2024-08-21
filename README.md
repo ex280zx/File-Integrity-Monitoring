@@ -11,8 +11,14 @@ The File Integrity Monitor is a Python script that monitors files in a specified
 - **Cross-Platform Support:** Compatible with both Windows and Unix-based systems.
 
 ### Usage and Customization
+- This uses yahoo SMTP as the sending email source. (See Yahoo SMTP description)
 - Open the script file_integrity_monitor.py and set the directory_to_monitor variable to the path of the directory you want to monitor.
-- You can change the monitoring interval by modifying the monitor_interval variable in seconds:
+- You can change the monitoring interval by modifying the monitor_interval variable in seconds. Default is 30 seconds.
+
+### Yahoo SMTP Explanation:
+Yahoo is used since Google recently moved to OAuth.
+App Password: If you're using 2-Step Verification, you'll need to generate an app password in your Yahoo account settings and use it in the script instead of your regular Yahoo account password.
+
 
 ### Creation note
 - Created with help from LLM.
